@@ -163,6 +163,20 @@ section[epub|type~="endnotes"] > ol > li{
 	margin: 1em 0;
 }
 
+footer{
+	margin-top: 1em;
+	text-align: right;
+}
+
+[epub|type~="z3998:signature"]{
+	font-variant: small-caps;
+}
+
+p span.i1{
+	padding-left: 2em;
+	text-indent: -1em;
+}
+
 /* Invert images in dark mode. RMSDK requires a target media as well as a state. */
 @media all and (prefers-color-scheme: dark){
 	img[epub|type~="se:image.color-depth.black-on-transparent"]{
